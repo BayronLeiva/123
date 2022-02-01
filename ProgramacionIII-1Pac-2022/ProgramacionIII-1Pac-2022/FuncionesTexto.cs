@@ -31,6 +31,14 @@ namespace ProgramacionIII_1Pac_2022
             textBoxPrimerCaracter.Text = cadena.Substring(0,1);
 
             textBoxUltimoCaracter.Text = cadena.Substring(cadena.Length - 1, 1);
+
+            textBoxRango.Text = cadena.Substring(12, 20);
+
+            textBoxMayuscula.Text = cadena.ToUpper();
+
+            textBoxMinuscula.Text = cadena.ToLower();
+
+            textBoxRemplazo.Text = cadena.Replace(" ", "");
         }
     }
 }
