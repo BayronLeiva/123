@@ -1,6 +1,6 @@
 ﻿namespace ProgramacionIII_1Pac_2022
 {
-    partial class Form1
+    partial class Funciones
     {
         /// <summary>
         ///  Required designer variable.
